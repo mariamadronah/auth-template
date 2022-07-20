@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Matteo Bruni">
-    <title>Register Template - tsParticles</title>
+    <title>HELP EDU</title>
+    
+    <link rel="icon" href="/images/logo.png" type="image/x-icon"/> 
+    
 
     <!-- Custom styles for this template -->
     <link href="css/particles.css" rel="stylesheet"/>
@@ -14,8 +17,15 @@
 </head>
 
 <body>
+    
 <div id="tsparticles"></div>
-<main class="box">
+<header>
+    <nav class="net">
+        <img src="/images/logo.png" alt="Help Edu logo"> <!--give color of red and poition--> /<!--put the logo of netflix word-->
+    </nav>
+</header>
+
+<main class="box" id="me">
     <h2>Register</h2>
     <form>
         <div class="inputBox">
@@ -30,6 +40,19 @@
         <div class="inputBox">
             <label for="userConfirmPassword">Confirm Password</label>
             <input type="password" name="userPassword" id="userConfirmPassword" placeholder="confirm your password"
+                   required/>
+        </div>
+        <div class="inputBox">
+            <label for="school">School attended</label>
+            <input type="password" name="userPassword" id="userConfirmPassword" placeholder="type your attended school"
+                   required/>
+        </div>
+
+        
+        
+        <div class="inputBox">
+            <label for="school">University of interest</label>
+            <input type="password" name="userPassword" id="userConfirmPassword" placeholder="type your University of interest"
                    required/>
         </div>
         <button type="submit" name="" style="float: left;">Submit</button>
